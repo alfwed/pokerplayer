@@ -1,0 +1,17 @@
+<?php
+global $formErrors;
+?>
+<form method="post" action="">
+  <div style="text-align:center;">
+	<label for="lc_logcontent">Historique de la main :</label><br>
+    <textarea id="lc_logcontent" name='lc_logcontent' rows="20" style="width:400px;"></textarea>
+	<br>
+	<?php if (!is_null($formErrors)): ?>
+	<span style="color:#f00;"><?php echo $formErrors ?></span>
+	<?php endif; ?>
+	<br>
+	<input type="submit" value="Créer la main" />
+  </div>
+  
+  <input type="hidden" name="hhreplayer_form" value="1" />
+</form>

@@ -1,0 +1,28 @@
+Winamax Poker - CashGame - HandId: #4461004-525-1365525632 - Holdem no limit (0.01€/0.02€) - 2013/04/09 16:40:32 UTC
+Table: 'Nice 27' 5-max (real money) Seat #4 is the button
+Seat 2: serpecator (2.07€)
+Seat 4: STEF86 (4.54€)
+Seat 5: -Pe4nuts- (2.08€)
+*** ANTE/BLINDS ***
+-Pe4nuts- posts small blind 0.01€
+serpecator posts big blind 0.02€
+Dealt to -Pe4nuts- [Kh Kc]
+*** PRE-FLOP *** 
+STEF86 calls 0.02€
+-Pe4nuts- raises 0.08€ to 0.10€
+serpecator folds
+STEF86 calls 0.08€
+*** FLOP *** [7c 3s Ts]
+-Pe4nuts- bets 0.17€
+STEF86 calls 0.17€
+*** TURN *** [7c 3s Ts][4h]
+-Pe4nuts- bets 0.42€
+STEF86 calls 0.42€
+*** RIVER *** [7c 3s Ts 4h][6c]
+-Pe4nuts- bets 0.95€
+STEF86 folds
+-Pe4nuts- collected 2.26€ from pot
+*** SUMMARY ***
+Total pot 2.26€ | Rake 0.09€
+Board: [7c 3s Ts 4h 6c]
+Seat 5: -Pe4nuts- (small blind) won 2.26€

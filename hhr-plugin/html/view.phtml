@@ -1,0 +1,98 @@
+<?php
+// @FIXME Delete this !
+global $viewContent;
+
+/* @var $dto lp_dto_HhReplayerDto */
+$dto = $viewContent['dto'];
+?>
+
+<?php if (empty($dto)) : ?>
+
+  <p>Main inconnue.</p>
+
+<?php else : ?>
+
+<div id="hhreplayer">
+	<div id="room">
+		<div id="replayertable" data-step="-1">
+		  
+		  <div id="pot">
+			<div class="current money">
+			  Pot : <span>0.00</span>
+			</div>
+			<div class="total">
+			  Pot total : <span>0.00</span>
+			</div>
+		  </div>
+		  <div class="flop"></div>
+		  <div class="turn"></div>
+		  <div class="river"></div>
+		</div>
+	  
+		<div id="action-bar">
+		  <div class="">
+			<nav role="navigation">
+			  <ul>
+				<li><a href="#" id="action-prev" title="Reculer"><i class="fa fa-backward"></i></a></li>
+				<li><a href="#" id="action-play" title="Lecture"><i class="fa fa-play"></i></a></li>
+				<li><a href="#" id="action-next" title="Avancer"><i class="fa fa-forward"></i></a></li>
+				<li class="streets">
+			  	  <a href="#" data-goto-step="-1">P</a>
+				  <a href="#" class="btn-flop" data-goto-step="">F</a>
+				  <a href="#" class="btn-turn" data-goto-step="">T</a>
+				  <a href="#" class="btn-river" data-goto-step="">R</a>
+				</li>
+				<li class="last"><a href="#">Cote <span id="pot-odds"></span></a></li>
+			  </ul>
+			</nav>  
+		  </div>
+		</div>
+	</div>
+	  
+	  <div class="player template">
+		<div class="cards">
+		  <span class="card"></span> 
+		  <span class="card"></span>
+		</div>
+		<div class="info">
+		  <span class="name"></span>
+		  <span class="stack money"></span>
+		</div>
+		<span class="action"></span>
+		<span class="bet money"></span>
+		<span class="dealer">D</span>
+	  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function () {
+	var hand = <?php echo $dto->getLogJSON() ?>;
+	/* RUN */
+	var hhreplayer = new HHReplayer({
+	  table: '#replayertable',
+	  pot: '#pot',
+	  playBtn: '#action-play'
+	});
+	hhreplayer.init(hand);
+	
+	/********** EVENTS **********/
+	$("#action-play").on("click", function(e){
+	  e.preventDefault();
+	  $(this).toggleClass('blink');
+	  $(this).attr('data-active', $(this).hasClass('blink'));
+	  hhreplayer.play();
+	});
+
+	$("#action-next").on("click", function(e){
+	  e.preventDefault();
+	  hhreplayer.next();
+	});
+
+	$("#action-prev").on("click", function(e){
+	  e.preventDefault();
+	  hhreplayer.prev();
+	});
+});
+</script>
+
+<?php endif; ?>

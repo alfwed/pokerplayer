@@ -1,0 +1,41 @@
+Winamax Poker - CashGame - HandId: #5416124-12799-1385764824 - Holdem no limit (2€/4€) - 2013/11/29 22:40:24 UTC
+Table: 'Vienna 08' 5-max (real money) Seat #1 is the button
+Seat 1: lechasseur (452€)
+Seat 2: Mr.Whatelse (435.25€)
+Seat 3: keutsk45000 (223.65€)
+Seat 4: EnjoyYourRun (400€)
+Seat 5: JCOMPRENPAS (404€)
+Seat 6: test (322€)
+*** ANTE/BLINDS ***
+Mr.Whatelse posts small blind 2€
+Pinave posts big blind 4€
+Dealt to Mr.Whatelse [6s 6h]
+*** PRE-FLOP *** 
+EnjoyYourRun folds
+JCOMPRENPAS folds
+test folds
+lechasseur raises 8€ to 12€
+Mr.Whatelse calls 10€
+keutsk45000 folds
+*** FLOP *** [8c 5d 2c]
+Mr.Whatelse checks
+lechasseur bets 16.80€
+Mr.Whatelse calls 16.80€
+*** TURN *** [8c 5d 2c][Td]
+Mr.Whatelse checks
+lechasseur bets 41€
+Mr.Whatelse raises 59€ to 100€
+lechasseur calls 59€
+*** RIVER *** [8c 5d 2c Td][Jh]
+Mr.Whatelse checks
+lechasseur bets 188€
+Mr.Whatelse calls 188€
+*** SHOW DOWN ***
+Mr.Whatelse shows [6s 6h] (One pair : 7)
+lechasseur shows [9c Kc] (Two pairs : 9 and 7)
+--bilboom-- collected 634.60€ from pot
+*** SUMMARY ***
+Total pot 634.60€ | Rake 3€
+Board: [8c 5d 2c Td Jh]
+Seat 2: Mr.Whatelse (small blind) showed [6s 6h] and won 634.60€ with One pair : 6
+Seat 5: lechasseur showed [9c Kc] and lost with Two pairs : 9 and 7

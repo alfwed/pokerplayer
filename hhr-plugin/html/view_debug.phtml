@@ -1,0 +1,41 @@
+
+<?php
+// @FIXME Delete this !
+global $viewContent;
+
+/* @var $dto lp_dto_HhReplayerDto */
+$dto = $viewContent['dto'];
+?>
+
+<?php if (empty($dto)) : ?>
+
+  <p>Sorry, no data. </p>
+
+<?php else : ?>
+
+  <p>Info for log</p>
+
+  <table>
+    <tr>
+      <td>Id</td>
+      <td><?php echo $dto->getId(); ?></td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td><?php echo $dto->getDate()->format('d M Y H:i:s'); ?></td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td><?php echo $dto->getDescription(); ?></td>
+    </tr>
+    <tr>
+      <td>Log</td>
+      <td><?php echo $dto->getLog(); ?></td>
+    </tr>
+    <tr>
+      <td>JSON</td>
+      <td><?php echo $dto->getLogJSON(); ?></td>
+    </tr>
+  </table>
+
+<?php endif; ?>
