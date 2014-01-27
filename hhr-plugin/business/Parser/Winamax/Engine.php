@@ -115,10 +115,6 @@ class Parser_Winamax_Engine extends Parser_Abstract
         $stack->name = $matches[2];
         $stack->stack = $this->rmCurrency($matches[3]);
         $this->hand->addStack($stack);
-
-        if ($matches[1] == $this->btnPosition) {
-            $this->btnPosition = count($this->hand->stacks);
-        }
     }
 
     protected function parseAnte($line, $matches)
