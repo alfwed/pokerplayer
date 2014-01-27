@@ -12,5 +12,6 @@ Demo can be found [here](http://blog.alfwed.com/hhreplayer/1/)
 3. Go to Settings>Permalink and click the `Save modifications` button.
 
 ## Credits
-Worpress plugin : John Garcia Fernandez
-Player : Alexandre Altun
+
+* Worpress plugin : John Garcia Fernandez
+* Player : Alexandre Altun
