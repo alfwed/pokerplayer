@@ -1,4 +1,4 @@
-# pokerplayer
+pokerplayer
 ===========
 This is a wordpress plugin for [Kill Tilt](http://www.kill-tilt.fr/).
 
