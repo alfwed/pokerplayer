@@ -14,4 +14,4 @@ Demo can be found [here](http://blog.alfwed.com/hhreplayer/1/)
 ## Credits
 
 * Worpress plugin : John Garcia Fernandez
-* Player : Alexandre Altun
+* Player : Alfwed
